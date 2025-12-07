@@ -1,0 +1,28 @@
+{
+  "name": "grpc-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "nodemon --exec ts-node server/server.mjs",
+    "start-client": "nodemon --exec ts-node client/client.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.14.2",
+    "@grpc/proto-loader": "^0.8.0",
+    "nodemon": "^3.1.11"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "grpc_tools_node_protoc_ts": "^5.3.3",
+    "grpc-tools": "^1.13.1",
+    "protoc-gen-ts": "^0.8.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
